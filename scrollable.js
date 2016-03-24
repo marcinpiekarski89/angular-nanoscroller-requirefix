@@ -1,9 +1,6 @@
 ;
 (function (angular, $, undefined) {
   'use strict';
-  if ($.fn['nanoScroller'] === undefined) {
-    throw new Error("nanoScrollerJS is not defined in jQuery");
-  }
   //jQuery must be used, cause angular method 'find' has different behavior
   if (angular.element !== $) {
     throw new Error("Angular must use jQuery not jqLite");
