@@ -1,11 +1,12 @@
 {
-  "name": "angular-nanoscroller",
+  "name": "angular-nanoscroller-requirefix",
   "main": "scrollable.js",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "authors": [
-    "maxaon"
+    "maxaon",
+    "marcinpiekarski89"
   ],
-  "description": "Wrapper for [nanoScrollerJS](http://jamesflorentino.github.io/nanoScrollerJS/)",
+  "description": "Wrapper for [nanoScrollerJS](http://jamesflorentino.github.io/nanoScrollerJS/) - requirejs fix",
   "keywords": [
     "angular",
     "scroll",
